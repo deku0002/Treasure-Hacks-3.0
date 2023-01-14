@@ -1,0 +1,55 @@
+<head>
+  <title>Personality Quiz</title>
+  <link rel="stylesheet" href="quizspy.css">
+  <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=VT323&display=swap" rel="stylesheet">
+
+<div class="topnav">
+  <div class="logo"><img src="logo.png"class="w3-round w3-image" alt="logo" width="50" height="50">
+    <b><i> The Puzzle of The Life </i></b></div>
+    <div class=menu>
+        <nav class="navbar navbar-expand-lg p-0" style="display: block;">
+            <a href="HomePage.html">Home</a>
+            <a href="books.html">Books</a>
+            <a href="quiz.html">Trivia</a>
+            <a href="quizspy.html">Quiz</a>
+            <a href="talkwiththerapist.html">Talk With Therapist</a>
+            <a href="yourstory.html">Your Story</a>
+        </nav>
+        </div>
+        </div>
+
+</head>
+
+<body>
+
+  <div class="quiz-container">
+      <div class="title">Personality Quiz</div>
+      <div id="question" class="question"></div>
+      <label class="option">
+          <input type="radio" name="option" value="1" />
+          <span class="option1"></span>
+      </label>
+      <label class="option">
+          <input type="radio" name="option" value="2" />
+          <span class="option2"></span>
+      </label>
+      <label class="option">
+          <input type="radio" name="option" value="3" />
+          <span class="option3"></span>
+      </label>
+      <!-- Buttons -->
+      <div class="controls">
+          <button class="previous">Previous</button>
+          <button class="next">Next</button>
+      </div>
+  </div>
+
+  <div class="result">
+
+  </div>
+
+  <script src="quizspy.js"></script>
+
+</body>
+</html>
